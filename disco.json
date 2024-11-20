@@ -1,0 +1,11 @@
+{
+    "version": "1.0",
+    "services": {
+        "web": {
+            "image": "python:3.12.4",
+            "build": "pip install -r requirements.txt",
+            "command": "python server.py",
+            "port": 8080
+        }
+    }
+}
