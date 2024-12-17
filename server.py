@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello_world():
-    return "<p>Hello, Woasd9oijaosdpiahiusgbfkjnlffffffffffffd!</p>"
+    return "<p>Hello, lets deploy a new version!</p>"
 
 
 app.run(host="0.0.0.0", port=8080)
